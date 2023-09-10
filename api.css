@@ -1,24 +1,27 @@
-.table {
-    border: 3px solid rgb(0, 0, 0);}
-.table{
-display: grid;
-justify-content: space-between ;
-grid-template-columns: ;
+
+table{
+ box-shadow: 5px 10px rgb(0, 0, 0);
+opacity: 90%;
+border:3px solid black;
 width: 100%;
-background-color: #999;
-height: 300px;
+background-color: #4c75ab;
+height: fit-content;
 font-size: 30px
+
 
 };
 .th{
     width: max-content;
-    font-size: larger;
-    border:3px solid rgb(0, 0, 0); 
+    
+   border: solid;
+   
+};
+.thead{
+    display: grid;
+justify-content: center ;
+gap:30px ;
 
 }
-.td{
-    border:2px solid rgb(0, 0, 0); 
-}
-.street{
-    right: 10%;
+td{
+    text-align: center;
 }

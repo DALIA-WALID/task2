@@ -1,44 +1,25 @@
-/*fetch("https://jsonplaceholder.typicode.com/users?fbclid=IwAR2m82_dIwTzfzXyGip5P7arnms5jUbifhclezKWv5cgtHXpOBHcOwVb8AY").then(alldata => {
-    let data = alldata.json();
-    
-})
-)});*/
- 
 
-//function Car(name, email, street,address,) {
-  //  this.model = model;
-  //  this.year = year;
-//}
- // 
-c/*onst table = document.getElementById('table')
-  const th =document.querySelector('th')
-  const td =document.querySelector('td')
-let input = data.forEach(user => {
-    if (user.value == th.name) {
-        let write = td.document.innehtml("data")
-        return (write);
-    }
-    else {
-        td = [""];
-    }
-    
-
-});*/
-/*fetch("https://jsonplaceholder.typicode.com/users?fbclid=IwAR2m82_dIwTzfzXyGip5P7arnms5jUbifhclezKWv5cgtHXpOBHcOwVb8AY").then(alldata => {
+fetch("https://jsonplaceholder.typicode.com/users?fbclid=IwAR2m82_dIwTzfzXyGip5P7arnms5jUbifhclezKWv5cgtHXpOBHcOwVb8AY").then(alldata => {
     let data = alldata.json(); //data filtered
     const vv = document.getElementById('table');
-    let values = Object.valuesa(data);
+    let values = Object.values(data);
     let keys = Object.keys(data);
     let th = document.querySelector('th');
     let td = document.querySelector('td');
+    let create = document.createElement("td")
     
     const table = document.getElementById('table').innerHTML = object.values(data);
 
     data.forEach(user => {
-        if (keys == td.className) {
-            document.table.innerHTML(values)
+        if (keys == th.className) {
+
+     let output= table.document.innerHTML.create.push(values);
+            return (output);
+            //return ({`${data.name}`},${ data.username },${ data.email },${ data.address },${ data.street });
+            
         } else {
-            document.table.innerHTML = [""];
+            let empty = table.document.innerHTML = [""];
+            return (empty);
         }
         return(user)
     }
@@ -46,7 +27,7 @@ let input = data.forEach(user => {
     
 });
 
-document.write(user);*/
+
 
 
 
@@ -74,5 +55,7 @@ document.write(user);*/
 
 
 
-const mydata = requires("./js/data")
-console.log(cala)
+//const mydata = requires("./js/data")
+//console.log(calc)
+//const fs = require("fs")
+//fs.writeFileSync("a.text","hello")
