@@ -1,0 +1,24 @@
+.table {
+    border: 3px solid rgb(0, 0, 0);}
+.table{
+display: grid;
+justify-content: space-between ;
+grid-template-columns: ;
+width: 100%;
+background-color: #999;
+height: 300px;
+font-size: 30px
+
+};
+.th{
+    width: max-content;
+    font-size: larger;
+    border:3px solid rgb(0, 0, 0); 
+
+}
+.td{
+    border:2px solid rgb(0, 0, 0); 
+}
+.street{
+    right: 10%;
+}
